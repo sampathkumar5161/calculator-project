@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.main{
+    height: 60vh;
+    width: 26vw;
+    border:  3px solid black;
+    
+}
+.display-values{
+    height: 20%;
+    font-weight: bold;
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.container{
+   height: 80%;
+   overflow: hidden;
+}
+.keys{
+ margin-top: 2rem;
+ margin-right:10%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    
+    bottom: 0px;
+  
+} 
+.numbers{
+    
+width: 70%;
+height: 82%;
+position: absolute;
+bottom: 5%;
+left: 5%;
+}
+.number{
+    
+    width: 32%;
+    /* margin: 5rem 0 5rem 0; */
+    height: 24%;
+    /* overflow: hidden; */
+}
+.operators{
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+    height: 82%;
+    position: absolute;
+    bottom: 5%;
+    right: 0%;
+}
+.operator{
+    width: 100%;
+    height:24% ;
+    background-color: aqua;
+}
+.extrakeys{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.arth{
+    width: 20%;
+    height: 20%;
+  position: relative;
+  bottom: 9%;
+}
+.history-tab{
+    height: 50%;
+    width: 20%;
+    background-color:#e5e5e5;
+    position: fixed;
+    top: 150px;
+    right: 13%;
+    border-radius: 5px;
+    visibility: hidden;
+    overflow: hidden;
+  
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading h3{
+    position: relative;
+   left: 35%;
+   top: 12%;
+}
+.x{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3px;
+    right: 5px;
+    border: none;
+}
+.x:hover{
+    background-color: red;
+}

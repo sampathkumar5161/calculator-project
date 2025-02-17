@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div>
+   <header >
+    <h1>Calculator</h1>
+   </header> 
+   <main>
+    <div class="main">
+      <input type="text"  class="display-values bg-secondary bg-gradient">
+<div class="container  bg-warning bg-gradient">
+ 
+   <div class="keys" >
+         <div class="extrakeys">
+            <button class="arth icon"><i class="fa-solid fa-clock-rotate-left"></i></button>
+            <br/>
+           <!-- <button class="arth">e <sup>x</sup></button>
+           <button class="arth">ln(x)</button>
+           <button class="arth">x <sup>2</sup></button>
+           <button class="arth">x <sup>3</sup></button> -->
+           <button class="arth">DEL</button>
+         </div>
+         
+    <div class="numbers ">
+       <button class="number bg-primary bg-gradient">1</button>
+       <button class="number bg-primary bg-gradient">2</button>
+       <button class="number bg-primary bg-gradient">3</button>
+       <button class="number bg-primary bg-gradient">4</button>
+       <button class="number bg-primary bg-gradient">5</button>
+       <button class="number bg-primary bg-gradient">6</button>
+       <button class="number bg-primary bg-gradient">7</button>
+       <button class="number bg-primary bg-gradient">8</button>
+       <button class="number bg-primary bg-gradient">9</button>
+       <button class="number bg-danger bg-gradient">CLR</button>
+       <button class="number bg-primary bg-gradient">0</button>
+       <button class="number bg-success bg-gradient">=</button>
+    </div>
+  <div class="operators">
+    <button class="operator">+</button>
+ <button class="operator">-</button>
+ <button class="operator">x</button>
+ <button class="operator">/</button>
+  </div>
+ </div>
+  
+</div>
+</div>
+
+   </main>
+  
+   <div class="history-tab overflow-scroll" >
+      <i class="fa-solid fa-clock-rotate-left"></i>
+   <div class="heading"><h3>History</h3>
+      <button class="x">x</button>
+   </div>
+   <div class="history"></div>
+</div>
+</body>
+
+<script src="/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
